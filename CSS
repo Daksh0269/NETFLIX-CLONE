@@ -1,0 +1,508 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container-1 {
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 3px 1000px rgb(0 0 0 / 72%);
+    /* padding-top: 105px; */
+    background-image: url("ASSETS/IMAGES/top\ bg-image.jpg");
+    /* background-size: ; */
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: aliceblue;
+    gap: 0.5em;
+    font-size: 1.5rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding-top: 105px;
+
+}
+
+#email {
+
+    z-index: 2;
+    background-color: rgba(22, 22, 22, 0.7);
+    width: 25em;
+    height: 4em;
+    resize: none;
+    color: #fdfdfd;
+    font-weight: 600;
+    /* font-size: ; */
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 5px;
+
+}
+
+.search {
+    width: 10em;
+    height: 2.5em;
+    background-color: rgb(229, 9, 20);
+    top: 7.6em;
+    left: 27em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px #fdfdfd;
+    border-radius: 5px;
+    /* font-size:1.4rem ; */
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.parent {
+    display: inline-flex;
+    column-gap: 0.5em;
+    font-family: inherit;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-size: large;
+    }
+
+.nav {
+    position: absolute;
+    top:20px;
+    left: 0em;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly; 
+}
+
+.img-logo {
+    width: 158px;
+    height: 62px;
+    }
+
+
+select {
+    font-size: 1.3rem;
+    padding: 2px 5px;
+    background-color: rgba(22, 22, 22, 0.7);
+    width: 129px;
+    height: 37px;
+    color: #fdfdfd;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    border: 0.1px solid rgb(65, 64, 64);
+    }
+
+.lang {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #fdfdfd;
+    font-weight: 900;
+}
+
+.sign-up {
+    width: 83px;
+    height: 37px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 2px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+}
+.lang-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 15em;
+
+}
+
+.texts h2 {
+    font-weight: 400;
+    text-shadow: 2px;
+}
+
+.texts h3 {
+    font-weight: 400;
+    padding-top: 8px;
+
+}
+
+.texts h1 {
+    font-weight: 900;
+}
+
+
+.line {
+    width: 100%;
+    height: 7px;
+    background-color: rgb(87, 85, 85);
+}
+
+.page2 {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+}
+
+.text-page2 {
+    color: #fdfdfd;
+    width: 41vw;
+    justify-content: center;
+    padding-left: 30px;
+    height: 48vh;
+}
+
+.text-page2 h1 {
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.text-page2 h2 {
+    font-weight: 350;
+    font-size: 2em;
+}
+
+.tv-video {
+    position: relative;
+    top: -390px;
+    right: -6.3vw;
+    z-index: 2;
+    width: 33.9vw;
+    height: 42.3vh;
+}
+.tv-page2{
+    position: relative;
+    z-index: 3;
+    width: 47vw;
+    height: 75vh;
+}
+.img-video {
+    width: 49vw;
+    height: 87vh;
+   }
+
+.page3 {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-page3 {
+    color: #fdfdfd;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.text-page3 {
+    width: 42em;
+    height: 19em;
+}
+
+.text-page3 h1 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.text-page3 h2 {
+    font-weight: 510;
+    font-size: 2em;
+    padding-top: 2px;
+}
+
+.page3-imgage {
+    scale: 0.9;
+    padding-top: 184px;
+}
+
+.heading-page3 {
+    width: 43vw;
+}
+
+.page4 {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.text-page4 {
+    color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+.h1-page4 {
+    width: 37em;
+    height: 7em;
+}
+
+.h1-page4 h1 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.h2-page4 {
+    width: 40em;
+    height: fit-content;
+}
+
+.h2-page4 h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.computer-img {
+    scale: 0.9;
+    position: relative;
+    top: 10em;
+    z-index: 3;
+}
+
+.page4-vid {
+    position: relative;
+    top: -263px;
+    left: 28px;
+    height: 208px;
+    width: 578px;
+    z-index: 1;
+}
+
+.page-5 {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-5 {
+    color: #fdfdfd;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 41vw;
+
+}
+
+.text-5 h1 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.h1-page5 {
+    width: 29em;
+    height: 11em;
+}
+
+.h2-page5 {
+    width: 29em;
+    height: 9em;
+}
+
+.text-5 h2 {
+    font-weight: 600;
+}
+
+.blank-box {
+    width: 45%;
+    height: 3em;
+    background-color: #fdfdfd00;
+    /* position: absolute; */
+    top: 26px;
+    left: 328px;
+}
+
+.line {
+    position: relative;
+    z-index: 10;
+}
+
+/* media quesries and responsive design */
+@media screen and (max-width:952px) {
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        background-size: 200%;
+
+
+    }
+
+    .texts {
+        font-size: smaller;
+    }
+
+    .page2 {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 155vh;
+
+
+    }
+
+    .text-page2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: smaller;
+        padding: 0px;
+        width: 90vw;
+    }
+
+    .text-page2 h1 {
+        font-size: 2.3em;
+
+    }
+
+    .text-page2 h2 {
+        /* font-size: smaller; */
+        font-size: 1em;
+    }
+
+
+    .tv-page2{
+        scale: 0.9;
+        position: absolute;
+        z-index: 3;
+        width: 50vw;
+        height: 83vh;
+        }
+
+    .page3 {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 155vh;
+    }
+
+    .text-page3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        flex-direction: column;
+        font-size: smaller;
+        position: relative;
+        z-index: 2;
+        top: 270px;
+    }
+
+    .heading-page3 {
+        font-size: 0.7em;
+        font-weight: 400;
+        width: 24em;
+        text-align: center;
+
+    }
+
+    .img-page3 {
+        padding: 0px;
+        scale: 0.7;
+        position: relative;
+        z-index: 1;
+    }
+
+    .h2-page3 {
+        font-size: 0.7em;
+        width: 88vw;
+        text-align: center;
+    }
+
+    .text-page3 h1 {
+        font-size: 2em;
+        font-weight: 800;
+    }
+
+    .page4 {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 155vh;
+    }
+    .img-container{
+        width: 30vw;
+        height: 40vh;
+    }
+
+    .text-page4 {
+        text-align: center;
+        position: relative;
+        top: -6em;
+        font-size: larger;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 43px;
+    }
+
+    .text-page4 h1 {
+        font-size: 2em;
+    }
+
+    .text-page4 h2 {
+        font-size: 1em;
+    }
+
+    .img-container {
+        width: 20em;
+        height: 20em;
+    }
+
+    .computer-img {
+        /* top: 0em; */
+        /* left: 0em; */
+        /* right: 0em; */
+        scale: 0.7;
+
+    }
+
+    .page4-vid {
+        scale: 0.8;
+        top: -26em;
+        left: 9em;
+        right: 0em;
+        width: 22em;
+        height: 14em;
+    }
+
+    .h2-page4 {
+        width: 95vw;
+        text-align: center;
+        display: flex;
+
+    }
+
+
+
+}
