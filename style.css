@@ -356,6 +356,7 @@ select {
         display: flex;
         flex-direction: column;
         background-size: 218%;
+        height: 99vh;
     }
 
     .texts {
@@ -371,7 +372,7 @@ select {
     .page2 {
         display: flex;
         flex-direction: column-reverse;
-        height: 155vh;
+        height: 99vh;
     }
 
     .text-page2 {
@@ -400,22 +401,22 @@ select {
         scale: 0.9;
         position: relative;
         z-index: 3;
-        width: 111vw;
-        height: 74vh;
+        width: 560px;
+        height: 445px;
         right: 33vw;
     }
     .tv-video {
         position: relative;
-        right: 16vw;
-        width: 75vw;
+        right: 67px;
+        width: 377px;
         /* height: 47vh; */
-        top: -62vh;
+        top: -370px;
     }
 
     .page3 {
         display: flex;
         flex-direction: column-reverse;
-        height: 155vh;
+        height: 99vh;
     }
 
     .text-page3 {
@@ -459,7 +460,7 @@ select {
     .page4 {
         display: flex;
         flex-direction: column-reverse;
-        height: 155vh;
+        height: 99vh;
     }
 
     .img-container {
@@ -470,12 +471,13 @@ select {
     .text-page4 {
         text-align: center;
         position: relative;
-        top: -6em;
+        top: -1px;
         font-size: larger;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-left: 43px;
+        left: -15px;
     }
 
     .text-page4 h1 {
@@ -494,16 +496,16 @@ select {
     .computer-img {
         scale: 0.7;
         position: relative;
-        right: 28vw;
-        top: -4vh;
+        right: 147px;
+        top: -25px;
     }
 
     .page4-vid {
         scale: 0.8;
         width: 356px;
-        height: 46vh;
-        top: -78vh;
-        left: -1vw;
+        height: 281px;
+        top: -468px;
+        left: -1px;
     }
 
     .h2-page4 {
