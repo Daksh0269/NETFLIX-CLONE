@@ -11,9 +11,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: inset 0px 0px 3px 1000px rgb(0 0 0 / 72%);
-    /* padding-top: 105px; */
     background-image: url("ASSETS/IMAGES/top\ bg-image.jpg");
-    /* background-size: ; */
     background-repeat: no-repeat;
     background-size: 150%;
 }
@@ -263,7 +261,7 @@ select {
     display: flex;
     flex-direction: column;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-
+    width: 25vw;
 }
 
 .h1-page4 {
@@ -277,8 +275,9 @@ select {
 }
 
 .h2-page4 {
-    width: 40em;
-    height: fit-content;
+    width: 42vw;
+    text-align: left;
+    display: flex;
 }
 
 .h2-page4 h2 {
